@@ -28,8 +28,8 @@
                 </nav>
             </div>
         </header>
-        <main role="main" class="inner cover">
-            <div class="jumbotron" id="fade">
+        <main role="main" class="inner cover" style="display: none">
+            <div class="jumbotron">
                 <h2 class="cover-heading" style="margin-top: -15px;">Preencha o formulário para Contato</h1>
                 <hr style="margin-bottom: -5px;"/>
                 <form>
@@ -76,8 +76,7 @@
     <script src="js/bootstrap.js"></script>
     <script>
         $(window).ready(function(){
-            $('main').css('display', 'none');
-            $('main').fadeIn(500);
+            $('main').fadeIn(1000);
         });
     </script>
 </body>
